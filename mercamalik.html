@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERCA MALIK 3 - Cambio de Divisas, Telefónica y Reparación</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandOrange: '#FF6600',
+                        brandOrangeHover: '#E05500',
+                        brandDark: '#121824',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-gradient { background: linear-gradient(135deg, #121824 0%, #1f2937 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans pt-2">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brandOrange text-white text-xs sm:text-sm py-2 px-3 text-center font-semibold flex flex-col sm:flex-row justify-between items-center max-w-7xl mx-auto shadow-sm rounded-lg mb-2">
+        <div class="flex items-center space-x-2 mx-auto sm:mx-0">
+            <i class="fas fa-shield-alt"></i>
+            <span>Seguro, rápido y confiable — ¡Tu dinero y tecnología, en buenas manos!</span>
+        </div>
+        <div class="hidden sm:flex space-x-6 text-xs mt-1 sm:mt-0">
+            <span><i class="fas fa-phone mr-1"></i> +34 627 64 68 23</span>
+            <span><i class="fas fa-map-marker-alt mr-1"></i> Carrer de Sant Vicent Màrtir, 110</span>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+            <!-- Brand Logo Image -->
+            <a href="#" class="flex items-center space-x-2 sm:space-x-3">
+                <img src="https://instagram.fvlc5-1.fna.fbcdn.net/v/t51.82787-19/825276825_18143078578518164_531771969682057718_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=b4VuRuojKNsQ7kNvwGeDYId&_nc_oc=Ado_2_gJJxs6DREOH2k6GuF4nZKhmJKW2aCTb3GHFI_WFAX9O1kV32t9v5CIpB_4yvo&_nc_zt=24&_nc_ht=instagram.fvlc5-1.fna&_nc_gid=opcq7K13kdryhqUJQi_uYA&_nc_ss=7b6a8&oh=00_AQMfkcv1gq_KSivAtkbsGHqsykg5Dz4S8H6ciGnfqzlEGA&oe=6AE66E98" alt="MERCA MALIK Logo" class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover border-2 border-brandOrange shadow-sm">
+                <div>
+                    <h1 class="font-extrabold text-lg sm:text-2xl text-gray-900 tracking-tight leading-none">MERCA <span class="text-brandOrange">MALIK 3</span></h1>
+                    <p class="text-[10px] sm:text-xs font-semibold tracking-wider text-gray-500 uppercase mt-0.5">Cambio de Divisas • Móviles</p>
+                </div>
+            </a>
+
+            <!-- Nav Links (Desktop) -->
+            <nav class="hidden md:flex space-x-6 text-sm font-semibold text-gray-700">
+                <a href="#servicios" class="hover:text-brandOrange transition">Lo Que Ofrecemos</a>
+                <a href="#opiniones" class="hover:text-brandOrange transition">Valoraciones</a>
+                <a href="#galeria" class="hover:text-brandOrange transition">Catálogo</a>
+                <a href="#fotos-tienda" class="hover:text-brandOrange transition">Fotos Tienda</a>
+                <a href="#tiendas" class="hover:text-brandOrange transition">Tiendas</a>
+                <a href="#contacto" class="hover:text-brandOrange transition">Contacto</a>
+            </nav>
+
+            <!-- Social & Call Action -->
+            <div class="flex items-center space-x-2 sm:space-x-3">
+                <a href="https://www.instagram.com/mercamalik3?exln=MXU3MXFhZDJmYjh0Yg%3D%3D&utm_source=qr" target="_blank" class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-600 text-white flex items-center justify-center hover:opacity-90 transition shadow-sm" title="Síguenos en Instagram">
+                    <i class="fab fa-instagram text-base sm:text-lg"></i>
+                </a>
+                <a href="https://wa.me/34627646823" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-3 sm:px-4 py-2 rounded-full font-bold text-xs sm:text-sm flex items-center space-x-1.5 shadow-md transition">
+                    <i class="fab fa-whatsapp text-base sm:text-lg"></i>
+                    <span class="hidden sm:inline">WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-12 sm:py-16 lg:py-20 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
+            <div>
+                <span class="bg-brandOrange/20 text-brandOrange border border-brandOrange/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest inline-block mb-4">
+                    Centro Multiservicio Oficial en Valencia
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 leading-tight">
+                    Tu dinero y tecnología, <span class="text-brandOrange">en buenas manos</span>.
+                </h2>
+                <p class="text-gray-300 text-sm sm:text-lg mb-6 leading-relaxed">
+                    Cambio de divisa con las mejores tasas, venta de móviles, gran variedad de accesorios, servicio técnico especializado (móviles y portátil) y envíos de dinero.
+                </p>
+                
+                <div class="flex flex-wrap gap-3 sm:gap-4">
+                    <a href="https://wa.me/34627646823?text=Hola,%20quisiera%20consultar%20sobre%20sus%20servicios." target="_blank" class="bg-brandOrange hover:bg-brandOrangeHover text-white px-5 sm:px-6 py-3 rounded-xl font-bold text-sm flex items-center space-x-2 shadow-lg transition">
+                        <i class="fab fa-whatsapp text-base"></i>
+                        <span>Contactar por WhatsApp</span>
+                    </a>
+                    <a href="#galeria" class="border border-gray-600 hover:border-white text-white px-5 sm:px-6 py-3 rounded-xl font-bold text-sm flex items-center space-x-2 transition">
+                        <i class="fas fa-images"></i>
+                        <span>Ver Carteles</span>
+                    </a>
+                </div>
+
+                <!-- Google Rating Badge Pill -->
+                <div class="mt-6 sm:mt-8 pt-6 border-t border-gray-800 flex items-center space-x-4">
+                    <div class="flex items-center space-x-1 text-yellow-400 text-base sm:text-lg">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div>
+                        <span class="font-extrabold text-white text-sm">5.0 / 5.0</span>
+                        <span class="text-gray-400 text-xs block">Valoración Excelente en Google Maps</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Store Card with Logo -->
+            <div class="relative flex justify-center mt-6 md:mt-0">
+                <div class="bg-white/10 p-4 rounded-2xl backdrop-blur-md border border-white/20 shadow-2xl w-full max-w-md">
+                    <div class="rounded-xl overflow-hidden shadow-lg border-2 border-brandOrange bg-brandDark text-center p-6 flex flex-col items-center">
+                        <img src="https://instagram.fvlc5-1.fna.fbcdn.net/v/t51.82787-19/825276825_18143078578518164_531771969682057718_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=b4VuRuojKNsQ7kNvwGeDYId&_nc_oc=Ado_2_gJJxs6DREOH2k6GuF4nZKhmJKW2aCTb3GHFI_WFAX9O1kV32t9v5CIpB_4yvo&_nc_zt=24&_nc_ht=instagram.fvlc5-1.fna&_nc_gid=opcq7K13kdryhqUJQi_uYA&_nc_ss=7b6a8&oh=00_AQMfkcv1gq_KSivAtkbsGHqsykg5Dz4S8H6ciGnfqzlEGA&oe=6AE66E98" alt="Logo Merca Malik" class="w-20 h-20 rounded-full border-2 border-brandOrange mb-4 shadow-md object-cover">
+                        <h3 class="text-2xl font-black mb-1 text-white">MERCA MALIK 3</h3>
+                        <p class="text-xs text-brandOrange font-bold uppercase mb-3">Cambio de Divisas & Telefonía</p>
+                        <p class="text-xs text-gray-300 mb-4">Carrer de Sant Vicent Màrtir, 110, Extramurs, 46007 Valencia</p>
+                        <a href="tel:+34627646823" class="inline-block bg-white text-brandDark font-black px-5 py-2.5 rounded-lg text-sm hover:bg-gray-100 transition">
+                            <i class="fas fa-phone-alt text-brandOrange mr-2"></i>+34 627 64 68 23
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GOOGLE REVIEWS & RATINGS SECTION -->
+    <section id="opiniones" class="py-12 sm:py-16 bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gray-900 rounded-3xl p-6 sm:p-12 text-white shadow-xl relative overflow-hidden mb-10">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div class="flex items-center space-x-4 sm:space-x-6 text-center md:text-left">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-2xl flex items-center justify-center text-xl sm:text-2xl font-black text-gray-900 shadow-md shrink-0">
+                            <span class="text-blue-500">G</span><span class="text-red-500">o</span><span class="text-yellow-500">o</span><span class="text-blue-500">g</span><span class="text-green-500">l</span><span class="text-red-500">e</span>
+                        </div>
+                        <div>
+                            <div class="flex items-center justify-center md:justify-start space-x-2">
+                                <span class="text-2xl sm:text-3xl font-black text-white">5.0</span>
+                                <div class="flex text-yellow-400 text-base sm:text-lg">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="text-gray-400 text-xs sm:text-sm mt-0.5">Basado en más de 500+ reseñas en Valencia</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="https://maps.google.com" target="_blank" class="bg-brandOrange hover:bg-brandOrangeHover text-white px-5 sm:px-6 py-3 rounded-xl font-bold text-xs sm:text-sm flex items-center space-x-2 shadow-lg transition">
+                            <i class="fab fa-google"></i>
+                            <span>Ver Reseñas en Google Maps</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review Cards Grid -->
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Review 1 -->
+                <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-1 text-yellow-400 text-sm mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 text-xs leading-relaxed italic mb-4">
+                            "El mejor sitio en Valencia para cambio de divisas. Cotización excelente y trato inmejorable por parte del personal."
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-4 border-t border-gray-200">
+                        <div class="w-8 h-8 sm:w-9 sm:h-9 bg-purple-600 text-white font-bold rounded-full flex items-center justify-center text-xs">C</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-xs">Carlos R.</h4>
+                            <span class="text-gray-400 text-[10px]">Cliente Verificado • Google</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-1 text-yellow-400 text-sm mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 text-xs leading-relaxed italic mb-4">
+                            "Llevé mi teléfono a reparar por la pantalla rota y me lo entregaron en perfecto estado el mismo día. Súper recomendados."
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-4 border-t border-gray-200">
+                        <div class="w-8 h-8 sm:w-9 sm:h-9 bg-blue-600 text-white font-bold rounded-full flex items-center justify-center text-xs">M</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-xs">María García</h4>
+                            <span class="text-gray-400 text-[10px]">Cliente Verificado • Google</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-1 text-yellow-400 text-sm mb-3">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 text-xs leading-relaxed italic mb-4">
+                            "Compré un móvil y accesorios con ellos. La atención por WhatsApp fue rápida y en tienda me ayudaron con todo."
+                        </p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-4 border-t border-gray-200">
+                        <div class="w-8 h-8 sm:w-9 sm:h-9 bg-green-600 text-white font-bold rounded-full flex items-center justify-center text-xs">A</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-xs">Ahmed K.</h4>
+                            <span class="text-gray-400 text-[10px]">Cliente Verificado • Google</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT WE OFFER SECTION -->
+    <section id="servicios" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="bg-orange-100 text-brandOrange text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Servicios Integrales</span>
+                <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mt-2 mb-3">Lo Que Ofrecemos</h2>
+                <p class="text-gray-600 text-sm">Disponemos de la mayor variedad en telefonía, tecnología y servicios financieros en Valencia.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Offer 1 -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200 hover:border-brandOrange hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-brandOrange text-white rounded-xl flex items-center justify-center text-xl mb-4 shadow-md">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="text-lg font-extrabold text-gray-900 mb-2">Móviles</h3>
+                        <p class="text-gray-600 text-xs leading-relaxed mb-4">Todas las marcas líderes (iPhone, Samsung, Xiaomi) con total garantía.</p>
+                    </div>
+                    <a href="https://wa.me/c/34627646823" target="_blank" class="text-brandOrange font-bold text-xs uppercase tracking-wider hover:underline flex items-center space-x-1">
+                        <span>Ver Catálogo</span><i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Offer 2 -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200 hover:border-brandOrange hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-brandOrange text-white rounded-xl flex items-center justify-center text-xl mb-4 shadow-md">
+                            <i class="fas fa-headphones-alt"></i>
+                        </div>
+                        <h3 class="text-lg font-extrabold text-gray-900 mb-2">Accesorios</h3>
+                        <p class="text-gray-600 text-xs leading-relaxed mb-4">Fundas, cristales templados, cargadores ultra rápidos y auriculares.</p>
+                    </div>
+                    <a href="https://wa.me/34627646823?text=Hola,%20busco%20accesorios." target="_blank" class="text-brandOrange font-bold text-xs uppercase tracking-wider hover:underline flex items-center space-x-1">
+                        <span>Consultar</span><i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Offer 3 -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200 hover:border-brandOrange hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-brandOrange text-white rounded-xl flex items-center justify-center text-xl mb-4 shadow-md">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3 class="text-lg font-extrabold text-gray-900 mb-2">Cambio de Dinero</h3>
+                        <p class="text-gray-600 text-xs leading-relaxed mb-4">Cambio de divisas (USD, GBP, CHF, MAD) sin comisiones ocultas y envíos.</p>
+                    </div>
+                    <a href="https://wa.me/34627646823?text=Hola,%20quiero%20consultar%20tasas." target="_blank" class="text-brandOrange font-bold text-xs uppercase tracking-wider hover:underline flex items-center space-x-1">
+                        <span>Tasas</span><i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Offer 4 -->
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200 hover:border-brandOrange hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-brandOrange text-white rounded-xl flex items-center justify-center text-xl mb-4 shadow-md">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="text-lg font-extrabold text-gray-900 mb-2">Reparación & PC</h3>
+                        <p class="text-gray-600 text-xs leading-relaxed mb-4">Reparación exprés de pantallas, baterías e instalación de Windows.</p>
+                    </div>
+                    <a href="https://wa.me/34627646823?text=Hola,%20necesito%20reparar." target="_blank" class="text-brandOrange font-bold text-xs uppercase tracking-wider hover:underline flex items-center space-x-1">
+                        <span>Presupuesto</span><i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery & Service Posters -->
+    <section id="galeria" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="bg-orange-100 text-brandOrange text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Promociones</span>
+                <h2 class="text-3xl font-extrabold text-gray-900 mt-2 mb-2">Carteles Oficiales</h2>
+                <p class="text-gray-600 text-sm">Consulta los detalles de nuestros servicios informáticos y telefonía.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Windows Card -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-200 flex flex-col">
+                    <div class="bg-black h-72 sm:h-80 overflow-hidden relative flex items-center justify-center">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9REKd5cxq8iooJCA9LQ78_E7HGJqUUKAQyadCbwPcJM5V2E6mIyzIZmk0PbM3kJppHS1aewPxH1-940K7Ho9YSU7ZXryOyeastq_SZKrHeYvtwDNbtHgs49aBEiFzFXUhaHfGAnxfbXpv0=s1360-w1360-h1020-rw" alt="Windows" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-xs font-bold text-blue-600 uppercase">Servicio PC</span>
+                            <h3 class="text-xl font-bold text-gray-900 mt-1 mb-2">Instalación de Windows</h3>
+                            <p class="text-xs text-gray-600 mb-4">Windows 10/11, drivers, programas básicos y formateo rápido.</p>
+                        </div>
+                        <a href="https://wa.me/34627646823?text=Hola,%20Windows." target="_blank" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-xl text-xs text-center transition">
+                            <i class="fab fa-whatsapp mr-1"></i> Consultar Por WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- iPhone Reserva Card -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-200 flex flex-col">
+                    <div class="bg-black h-72 sm:h-80 overflow-hidden relative flex items-center justify-center">
+                        <img src="https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/article/Apple-iPhone-18-Pro-color-lineup-260909_big.jpg.large.jpg" alt="iPhone" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-xs font-bold text-purple-600 uppercase">Telefonía</span>
+                            <h3 class="text-xl font-bold text-gray-900 mt-1 mb-2">Disponible</h3>
+                            <p class="text-xs text-gray-600 mb-4">Modelos de iPhone y nuevos smartphones Android en tienda.</p>
+                        </div>
+                        <a href="https://wa.me/c/34627646823" target="_blank" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 rounded-xl text-xs text-center transition">
+                            <i class="fab fa-whatsapp mr-1"></i> Ver Catálogo en WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mobile Repair Card -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-200 flex flex-col">
+                    <div class="bg-black h-72 sm:h-80 overflow-hidden relative flex items-center justify-center">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QORoodtjjvnG24Q5TEcrEkhMrlQq5DjJHiYkOfmhAMzMM0VsDftaE2I57Fnt-sp6Gx0D7yNCsu06qD1zVMFIgSNfTqKWX5SVZnOdPRTz_W3AVHeNzTK7eXLQeqOm3B5m2OB9d5OGezMLvO=s1360-w1360-h1020-rw" alt="Reparación" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-xs font-bold text-brandOrange uppercase">Reparación</span>
+                            <h3 class="text-xl font-bold text-gray-900 mt-1 mb-2">Reparación de Móviles</h3>
+                            <p class="text-xs text-gray-600 mb-4">Pantallas, baterías y conectores con garantía.</p>
+                        </div>
+                        <a href="https://wa.me/34627646823?text=Hola,%20reparar%20móvil." target="_blank" class="w-full bg-brandOrange hover:bg-brandOrangeHover text-white font-bold py-3 rounded-xl text-xs text-center transition">
+                            <i class="fab fa-whatsapp mr-1"></i> Pedir Presupuesto
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOP PHOTOS GALLERY SECTION -->
+    <section id="fotos-tienda" class="py-16 bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="bg-orange-100 text-brandOrange text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Galería</span>
+                <h2 class="text-3xl font-black text-gray-900 mt-2 mb-2">Fotos de Nuestra Tienda</h2>
+                <p class="text-gray-600 text-sm">Conoce el interior de Merca Malik 3 en Valencia.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+                <div class="rounded-2xl overflow-hidden shadow-md h-56 bg-gray-900 relative group">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RPYQC8VsYPUlGZCbKjyD0LHakolLMs2sea3PISO-iT-TDTozB7-WSCtj1s8RGX9foI6DtWq6zeT4i_ViVZFgOel4nJIlHGVHZn6nPBLflVDjqonyYxHlfN9fRsDRoPGgbmrKbNiUwJEehV=s1360-w1360-h1020-rw" alt="Fachada" class="w-full h-full object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-md h-56 bg-gray-900 relative group">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QBJKKXShxbqOlcYuM4eDGIFCsl26p23yhA7puBB3Hukwj7kmti78SPqwpwRSZi2ewW7WA5OyhO-Azr6HfMW7MoDrnDjTGo7NYMccJX3Eb1NwYFQh4aVxBfzsP3m7xokqO_UDr8725S-UQ=s1360-w1360-h1020-rw" alt="Móviles" class="w-full h-full object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-md h-56 bg-gray-900 relative group">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tsv19A9RjPs4uUTLDQbzzEPuOTw35_CVKGMv4p555R4cD4o7SwCw6aXKoV-AtV6nHfxTG9MdR6Yj8hkx2mpmPsXcaI8J8-YkQCRINiMncJ-zW56HBN8fhNoyUHyQtK77uKGcBTVUFylLVo=s1360-w1360-h1020-rw" alt="Accesorios" class="w-full h-full object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-md h-56 bg-gray-900 relative group">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TTH6vpXwWy9TUoZZpmI-rtTqRc0bLJLRWHc7WKitgzf9rjLtS4a9ITxqx9fjsu5f4GRzf-r3sIIeekQhtfGojAg_IO8ADXeB5hBj2h1XjFYgP3k1-6AAQ2chMeRcd-zc26vPqHbXlEk9Y=s1360-w1360-h1020-rw" alt="Taller" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-Store Locations Section -->
+    <section id="tiendas" class="py-16 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-brandOrange font-bold text-xs uppercase tracking-widest">Nuestras Tiendas</span>
+                <h2 class="text-3xl font-extrabold mt-1">Encuentra Tu Tienda Merca Malik</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Location 1 -->
+                <div class="bg-gray-800 p-6 rounded-2xl border border-gray-700">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-brandOrange text-xs font-bold px-2.5 py-1 rounded">MERCA MALIK 1</span>
+                        <a href="https://wa.me/34624954446" target="_blank" class="text-green-400 text-sm hover:underline"><i class="fab fa-whatsapp mr-1"></i>WhatsApp</a>
+                    </div>
+                    <p class="text-xs text-gray-300 mb-2"><i class="fas fa-map-marker-alt text-brandOrange mr-2"></i>Carrer de l'Uruguai, 38, 46007 Valencia</p>
+                    <p class="text-xs text-gray-400"><i class="fas fa-phone mr-2"></i>+34 624 95 44 46</p>
+                </div>
+
+                <!-- Location 2 -->
+                <div class="bg-gray-800 p-6 rounded-2xl border border-gray-700">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-brandOrange text-xs font-bold px-2.5 py-1 rounded">MERCA MALIK 2</span>
+                        <a href="https://wa.me/34624313359" target="_blank" class="text-green-400 text-sm hover:underline"><i class="fab fa-whatsapp mr-1"></i>WhatsApp</a>
+                    </div>
+                    <p class="text-xs text-gray-300 mb-2"><i class="fas fa-map-marker-alt text-brandOrange mr-2"></i>Calle Carteros, 73, 46007 Valencia</p>
+                    <p class="text-xs text-gray-400"><i class="fas fa-phone mr-2"></i>+34 624 31 33 59</p>
+                </div>
+
+                <!-- Location 3 (Main Store) -->
+                <div class="bg-gray-800 p-6 rounded-2xl border-2 border-brandOrange relative">
+                    <span class="absolute -top-3 right-4 bg-brandOrange text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">Principal</span>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-white text-gray-900 text-xs font-black px-2.5 py-1 rounded">MERCA MALIK 3</span>
+                        <a href="https://wa.me/34627646823" target="_blank" class="text-green-400 text-sm hover:underline"><i class="fab fa-whatsapp mr-1"></i>WhatsApp</a>
+                    </div>
+                    <p class="text-xs text-gray-300 mb-2"><i class="fas fa-map-marker-alt text-brandOrange mr-2"></i>Carrer de Sant Vicent Màrtir, 110, 46007 Valencia</p>
+                    <p class="text-xs text-gray-400"><i class="fas fa-phone mr-2"></i>+34 627 64 68 23</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section id="contacto" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-3xl font-extrabold text-gray-900 mb-2">Ubicación Merca Malik 3</h2>
+                <p class="text-gray-600 text-sm">Visítanos cerca de Pl. Espanya en Valencia.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="space-y-4">
+                    <div class="bg-white p-5 rounded-2xl border border-gray-200 shadow-sm flex items-start space-x-4">
+                        <div class="w-10 h-10 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center text-lg shrink-0">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-sm">Dirección Principal</h4>
+                            <p class="text-gray-600 text-xs mt-0.5">Carrer de Sant Vicent Màrtir, 110, Extramurs, 46007 Valencia</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-2xl border border-gray-200 shadow-sm flex items-start space-x-4">
+                        <div class="w-10 h-10 bg-green-100 text-green-600 rounded-xl flex items-center justify-center text-lg shrink-0">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 text-sm">Teléfono & WhatsApp</h4>
+                            <p class="text-gray-600 text-xs mt-0.5">+34 627 64 68 23</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-80 rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-gray-200">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.372138986877!2d-0.381395!3d39.464612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4b23d9a101%3A0x123456789!2sCarrer%20de%20Sant%20Vicent%20M%C3%A0rtir%2C%20110%2C%20Extramurs%2C%2046007%20Val%C3%A8ncia!5e0!3m2!1ses!2ses!4v1600000000000!5m2!1ses!2ses" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brandDark text-white py-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0 text-center sm:text-left">
+            <div class="flex items-center space-x-3 justify-center sm:justify-start">
+                <img src="https://instagram.fvlc5-1.fna.fbcdn.net/v/t51.82787-19/825276825_18143078578518164_531771969682057718_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=b4VuRuojKNsQ7kNvwGeDYId&_nc_oc=Ado_2_gJJxs6DREOH2k6GuF4nZKhmJKW2aCTb3GHFI_WFAX9O1kV32t9v5CIpB_4yvo&_nc_zt=24&_nc_ht=instagram.fvlc5-1.fna&_nc_gid=nKPewc8TZctdivq1fqQ7hQ&_nc_ss=7b6a8&oh=00_AQMJp1BJ-EV0I6uXSnqSaWCUNCj4s_q0TtGGf4ej0Cwe4w&oe=6AE6A6D8" alt="Logo" class="w-7 h-7 rounded-full">
+                <span class="text-brandOrange font-black text-lg">MERCA MALIK 3</span>
+            </div>
+            <p class="text-xs text-gray-400">©️ Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/34627646823" target="_blank" class="fixed bottom-5 right-5 bg-green-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-2xl hover:bg-green-600 transition z-50">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
